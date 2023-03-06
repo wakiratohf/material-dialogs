@@ -36,6 +36,9 @@ android {
 dependencies {
     implementation project(':core')
     implementation project(':commons')
+//    implementation 'com.github.wakiratohf.material-dialogs:commons:0.9.6.1-SNAPSHOT'
+//    implementation 'com.github.wakiratohf.material-dialogs:core:0.9.6.1-SNAPSHOT'
+
     implementation 'com.google.code.findbugs:jsr305:' + versions.findBugs
 
     implementation 'com.android.support:gridlayout-v7:' + versions.supportLib
