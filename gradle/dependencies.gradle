@@ -11,5 +11,7 @@ ext.versions = [
 
         supportLib        : '27.1.1',
         mdProgressBar     : '1.4.2',
-        butterKnife       : '8.8.1'
+        butterKnife       : '10.2.3',
+        appcompat         : '1.4.2',
+        recyclerview      : '1.2.1'
 ]
