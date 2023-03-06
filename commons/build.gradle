@@ -1,10 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 apply from: '../gradle/dependencies.gradle'
 
 android {
     compileSdkVersion versions.compileSdk
-    buildToolsVersion versions.buildTools
 
     defaultConfig {
         minSdkVersion versions.minSdk
@@ -30,13 +28,4 @@ dependencies {
     implementation 'com.android.support:support-annotations:' + versions.supportLib
     implementation 'com.android.support:recyclerview-v7:' + versions.supportLib
     implementation project(':core')
-}
-
-publish {
-    userOrg = 'novoda'
-    groupId = 'com.afollestad.material-dialogs'
-    artifactId = 'commons'
-    publishVersion = versions.publishVersion
-    website = 'https://github.com/afollestad/material-dialogs'
-    desc = 'A beautiful, fluid, and customizable dialogs API. '
 }
